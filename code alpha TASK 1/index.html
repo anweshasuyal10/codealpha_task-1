@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Responsive Image Gallery</h1>
+
+    <div class="filter-buttons">
+        <button class="active" data-filter="all">All</button>
+        <button data-filter="nature">Nature</button>
+        <button data-filter="city">City</button>
+        <button data-filter="animals">Animals</button>
+    </div>
+
+    <div class="gallery">
+
+        <div class="image nature">
+            <img src="https://picsum.photos/id/1015/600/400" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="https://picsum.photos/id/1011/600/400" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="https://picsum.photos/id/1025/600/400" alt="">
+        </div>
+
+        <div class="image nature">
+            <img src="https://picsum.photos/id/1039/600/400" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="https://picsum.photos/id/1043/600/400" alt="">
+        </div>
+
+        <div class="image animals">
+            <img src="https://picsum.photos/id/1062/600/400" alt="">
+        </div>
+
+        <div class="image nature">
+            <img src="https://picsum.photos/id/1074/600/400" alt="">
+        </div>
+
+        <div class="image city">
+            <img src="https://picsum.photos/id/1080/600/400" alt="">
+        </div>
+
+    </div>
+
+</div>
+
+<div class="lightbox">
+    <span class="close">&times;</span>
+
+    <button class="prev">
+        <i class="fas fa-chevron-left"></i>
+    </button>
+
+    <img class="lightbox-img">
+
+    <button class="next">
+        <i class="fas fa-chevron-right"></i>
+    </button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
